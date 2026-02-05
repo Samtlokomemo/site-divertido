@@ -1,0 +1,55 @@
+.LOGIN{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+}
+
+.LOGIN_PEQUENO{
+    display: grid;
+    gap: 5px;
+    background-color: cadetblue;
+    padding: 150px;
+    border-radius: 30px;
+}
+
+.LOGIN_PEQUENO button{
+    border-radius: 10px;
+}
+.LOGIN_PEQUENO input{
+    border-radius: 10px;
+}
+
+#cont-crias {
+    width: 100%;
+    position: fixed;
+    bottom: -500px;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 999;
+    transition: bottom 0.8s ease-in-out;
+}
+
+.visivel {
+    bottom: -80px !important
+}
+
+#cont-crias img {
+    width: 350px; 
+    animation: balancinho 0.5s infinite;
+}
+
+@keyframes balancinho {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.balancando {
+  animation: balancinho 0.5s infinite;
+  display: inline-block;
+}
