@@ -38,8 +38,28 @@
 }
 
 #cont-crias img {
-    width: 350px; 
+    width: 400px; 
     animation: balancinho 0.5s infinite;
+}
+
+#cont-crias2 {
+    width: 100%;
+    position: fixed;
+    bottom: -500px;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 999;
+    transition: bottom 0.8s ease-in-out;
+}
+
+#cont-crias2 img {
+    width: 400px; 
+    animation: balancinho 0.5s infinite;
+}
+
+.visivel2 {
+    bottom: 150px !important
 }
 
 @keyframes balancinho {
@@ -52,4 +72,15 @@
 .balancando {
   animation: balancinho 0.5s infinite;
   display: inline-block;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    display: none;  
+    z-index: 1000;  
 }
