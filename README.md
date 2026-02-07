@@ -1,4 +1,9 @@
-# site-divertido
-- Site de login divertido para a disciplina de IHC
-- Para acessar o site e logar use o username: marcos e a senha: 1234
-- Divirta-se!
+# Site Divertido
+Projeto desenvolvido para a disciplina de Interação Humano-Computador (IHC), com o objetivo de criar uma página de login divertida e fora do padrão tradicional.
+
+O design foi inspirado no estilo webcore, como uma forma de homenagem a essa estética que eu gosto bastante.
+
+### Dados para login
+`Usuário: marcos`
+
+`Senha: 1234`
