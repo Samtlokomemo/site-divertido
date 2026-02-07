@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a793fe;
-    background-image: url('/res/bg.gif');
+    background-image: url('res/bg.gif');
     background-repeat: repeat;
 }
 
