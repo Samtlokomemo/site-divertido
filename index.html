@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Site Divertido</title>
 </head>
+<header>
+    <div class="banner-container">
+        <img src="/res/header1.gif" alt="banner">
+        <img src="/res/header2.gif" alt="banner">
+    </div>
+    <h1>samtlokomemo's room</h1>
+</header>
 
 <body>
-    <video src="doakes.webm" id="doakes" loop></video>
+    <video src="res/doakes.webm" id="doakes"></video>
     <div class="LOGIN">
-        <div>
-            <h1>SITE DIVERTIDO</h1>
-        </div>
         <div class="LOGIN_PEQUENO">
+            <div class="window-header">
+                <span class="window-title">Login.exe</span>
+                <div class="window-controls">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <p id="msg-erro"></p>
             <input type="text" placeholder="username" id="INPUTLOGIN">
             <input type="password" placeholder="password" id="INPUTSENHA">
             <button id="BOTAODIVERTIDO">Login</button>
         </div>
     </div>
-    <div id="cont-crias">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
+    <div id="modal-ajuda" class="modal">
+        <div class="modal-content janela-retro">
+            <div class="window-header">
+                <span class="window-title">Ajuda.exe</span>
+                <span class="close">×</span>
+            </div>
+            <div class="modal-body">
+                <h3>PARA LOGAR</h3>
+                <p>User: marcos <br> Pass: 1234</p>
+            </div>
+        </div>
     </div>
-    <div id="cont-crias2">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
-        <img src="crias.webp" alt="crias">
+    <div class="gifs-lateral esquerda">
+        <img src="res/1.gif" alt="gif">
+        <img src="res/2.gif" alt="gif">
+        <img src="res/3.gif" alt="gif">
+        <img src="res/7.gif" alt="gif">
+    </div>
+    <div class="gifs-lateral direita">
+        <img src="res/4.gif" alt="gif">
+        <img src="res/5.gif" alt="gif">
+        <img src="res/6.gif" alt="gif">
+        <img src="res/8.gif" alt="gif">
     </div>
 </body>
+<footer>
+    <div class="banner-container">
+        <img src="/res/footer1.gif" alt="botão">
+        <img src="/res/footer2.gif" alt="botão">
+        <img src="/res/footer3.gif" alt="botão">
+    </div>
+    <button id="btn-ajuda" title="Dica de Login">?</button>
+</footer>
 <script src="script.js"></script>
+
 </html>
